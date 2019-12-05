@@ -1,0 +1,136 @@
+[2019-11-28 05:16:00]--shun:更新轮播图-->成功	参数1：{Banner(id=1d18c7f7-bb97-4c11-ad26-9ac7c14d2737, name=null, url=http://127.0.1.1:1208/cmfz/img/banner/1574932560228_AlbumArt_{B5020207-474E-4720-3F53-6C3EE11BCE00}_Small.jpg, description=null, href=null, status=null, createDate=null)}
+[2019-11-28 05:17:15]--shun:登录后台-->成功	参数1：{Manager(id=null, username=shun, password=123456)}
+[2019-11-28 05:17:44]--shun:添加轮播图-->成功	参数1：{Banner(id=c9a163a1-0e5b-4f76-a35d-742b4e003e0b, name=上官绿, url=C:\fakepath\AlbumArt_{B5020207-474E-4720-5AB5-0237660A4900}_Small.jpg, description=sdfds, href=dsgfds, status=1, createDate=Thu Nov 28 17:17:44 CST 2019)}
+[2019-11-28 05:17:45]--shun:更新轮播图-->成功	参数1：{Banner(id=c9a163a1-0e5b-4f76-a35d-742b4e003e0b, name=null, url=http://127.0.1.1:1208/cmfz/img/banner/1574932665104_AlbumArt_{B5020207-474E-4720-5AB5-0237660A4900}_Small.jpg, description=null, href=null, status=null, createDate=null)}
+[2019-11-28 05:18:09]--shun:删除轮播图-->成功	参数1：{String[]{338d2144-4452-450d-accf-bc76f8fc31db,2c1c154d-b30f-46a7-a9aa-db8abd069f7e}}
+[2019-11-28 05:27:08]--null:登录后台-->成功	参数1：{Manager(id=null, username=shun, password=123456)}
+[2019-11-28 05:31:37]--shun:登录后台-->成功	参数1：{Manager(id=null, username=shun, password=123456)}
+[2019-11-28 05:31:49]--shun:退出登录-->成功	参数1：{org.apache.catalina.connector.RequestFacade@401b959e}
+[2019-11-28 05:32:21]--shun:登录后台-->成功	参数1：{Manager(id=null, username=shun, password=123456)}
+[2019-11-28 05:33:03]--shun:添加章节-->成功	参数1：{Chapter(id=ad64913a-bee9-4a45-9566-e47544d56d67, musicId=2c28bbc3-5716-4da9-b5eb-dce7d70e81c6, name=E Mo Tion, size=null, time=null, url=null, fileName=C:\fakepath\E•MO•TION - Carly Rae Jepsen.mp3, createDate=Thu Nov 28 17:33:03 CST 2019)}
+[2019-11-28 05:33:03]--shun:更新章节-->成功	参数1：{Chapter(id=ad64913a-bee9-4a45-9566-e47544d56d67, musicId=null, name=null, size=7.6MB, time=3:17, url=http://127.0.1.1:1208/cmfz/music/chapter/1574933583616_E•MO•TION - Carly Rae Jepsen.mp3, fileName=1574933583616_E•MO•TION - Carly Rae Jepsen.mp3, createDate=null)}
+[2019-11-28 05:33:41]--shun:添加专辑-->成功	参数1：{Music(id=f56f8631-478f-4d6d-aff6-0ab6c670a678, name=aaa, author=dfsd, beam=fdsf, episodes=0, star=65, pic=null, description=sdf, content=sdfs, createTime=Thu Nov 28 17:33:41 CST 2019, status=1)}
+[2019-11-28 05:33:41]--shun:更新专辑-->成功	参数1：{Music(id=f56f8631-478f-4d6d-aff6-0ab6c670a678, name=null, author=null, beam=null, episodes=null, star=null, pic=http://127.0.1.1:1208/cmfz/music/1574933621975_AlbumArt_{B5020207-474E-4720-0ED5-9F21A42F6400}_Large.jpg, description=null, content=null, createTime=null, status=null)}
+[2019-11-28 05:45:27]--shun:更新专辑-->成功	参数1：{Music(id=f56f8631-478f-4d6d-aff6-0ab6c670a678, name=aaadf, author=dfsd, beam=fdsf, episodes=null, star=65, pic=null, description=sdf, content=sdfs, createTime=null, status=1)}
+[2019-11-28 05:45:35]--shun:清除专辑内所有章节-->成功	参数1：{String[]{f56f8631-478f-4d6d-aff6-0ab6c670a678}}
+[2019-11-28 05:45:35]--shun:删除章节-->成功	参数1：{String[]{f56f8631-478f-4d6d-aff6-0ab6c670a678}}
+[2019-11-28 10:45:01]--null:添加轮播图-->失败	参数1：{Banner(id=490034b7-8302-43d0-81cc-3db4e16c23db, name=山东分公司答复, url=C:\fakepath\AlbumArt_{B5020207-474E-4720-0ED5-9F21A42F6400}_Large.jpg, description=第三方山东分公司答复, href=水电费收到, status=1, createDate=Thu Nov 28 22:45:01 CST 2019)}
+[2019-11-28 11:01:59]--null:添加轮播图-->成功	参数1：{Banner(id=a18cf9a3-1fd3-4475-a502-23c3f9d46dfb, name=多少地方都是, url=C:\fakepath\AlbumArt_{B5020207-474E-4720-6AA4-BF33479FA000}_Large.jpg, description=第三方第三方, href=水电费但是, status=1, createDate=Thu Nov 28 23:01:59 CST 2019)}
+[2019-11-28 11:02:00]--null:更新轮播图-->成功	参数1：{Banner(id=a18cf9a3-1fd3-4475-a502-23c3f9d46dfb, name=null, url=http://127.0.1.1:1208/cmfz/img/banner/1574953320204_AlbumArt_{B5020207-474E-4720-6AA4-BF33479FA000}_Large.jpg, description=null, href=null, status=null, createDate=null)}
+[2019-11-28 11:02:07]--null:删除轮播图-->成功	参数1：{String[]{490034b7-8302-43d0-81cc-3db4e16c23db}}
+[2019-11-28 11:02:37]--null:添加专辑-->成功	参数1：{Music(id=98b4ac01-3b99-4dff-a58e-6311a0c1a401, name=是打发第三方, author=水电费, beam=法水电费, episodes=0, star=5, pic=null, description=水电费, content=水电费, createTime=Thu Nov 28 23:02:37 CST 2019, status=1)}
+[2019-11-28 11:02:37]--null:更新专辑-->成功	参数1：{Music(id=98b4ac01-3b99-4dff-a58e-6311a0c1a401, name=null, author=null, beam=null, episodes=null, star=null, pic=http://127.0.1.1:1208/cmfz/music/1574953357532_AlbumArt_{B5020207-474E-4720-3A41-1837F47D3600}_Large.jpg, description=null, content=null, createTime=null, status=null)}
+[2019-11-28 11:02:41]--null:清除专辑内所有章节-->成功	参数1：{String[]{98b4ac01-3b99-4dff-a58e-6311a0c1a401}}
+[2019-11-28 11:02:41]--null:删除章节-->成功	参数1：{String[]{98b4ac01-3b99-4dff-a58e-6311a0c1a401}}
+[2019-11-28 11:02:51]--null:添加章节-->成功	参数1：{Chapter(id=8cfadd75-737c-47f1-8a01-0cbf01497ce2, musicId=7e2b9f41-6ee5-4939-8fac-07088edc5083, name=是的范德萨, size=null, time=null, url=null, fileName=C:\fakepath\Absolutely Anything - CG5.mp3, createDate=Thu Nov 28 23:02:51 CST 2019)}
+[2019-11-28 11:02:51]--null:更新章节-->成功	参数1：{Chapter(id=8cfadd75-737c-47f1-8a01-0cbf01497ce2, musicId=null, name=null, size=8.7MB, time=0:0, url=http://127.0.1.1:1208/cmfz/music/chapter/1574953371601_Absolutely Anything - CG5.mp3, fileName=Absolutely Anything - CG5.mp3, createDate=null)}
+[2019-11-28 11:04:41]--null:删除章节-->成功	参数1：{String[]{8cfadd75-737c-47f1-8a01-0cbf01497ce2}}
+[2019-11-28 11:04:56]--null:添加章节-->成功	参数1：{Chapter(id=db01a873-6565-41e5-a058-d52b897f7f73, musicId=7e2b9f41-6ee5-4939-8fac-07088edc5083, name=的施工费多少, size=null, time=null, url=null, fileName=C:\fakepath\Absolutely Anything - CG5.mp3, createDate=Thu Nov 28 23:04:56 CST 2019)}
+[2019-11-28 11:04:57]--null:更新章节-->成功	参数1：{Chapter(id=db01a873-6565-41e5-a058-d52b897f7f73, musicId=null, name=null, size=8.7MB, time=3:34, url=http://127.0.1.1:1208/cmfz/music/chapter/1574953497048_Absolutely Anything - CG5.mp3, fileName=1574953497048_Absolutely Anything - CG5.mp3, createDate=null)}
+[2019-11-28 11:05:16]--null:删除章节-->成功	参数1：{String[]{db01a873-6565-41e5-a058-d52b897f7f73}}
+[2019-11-29 12:10:13]--null:删除文章-->成功	参数1：{String[]{19c842af-3f00-4079-be5d-0210fc159de6}}
+[2019-11-29 12:10:19]--null:删除文章-->成功	参数1：{String[]{78eda994-49de-41ea-8579-e298570161a9,33333ed1-acb6-4435-b4db-fcaa33179845}}
+[2019-11-29 09:21:04]--null:添加文章-->成功	参数1：{Article(id=c2393a6c-bad6-44c5-8918-d985ee02bc9f, title=是的发生的速度, userId=null, author=null, pic=null, contents=双方的大多数的方式, createTime=Fri Nov 29 09:21:04 CST 2019, releaseTime=Fri Nov 29 09:21:04 CST 2019, status=0)}
+[2019-11-29 09:21:18]--null:添加文章-->成功	参数1：{Article(id=a46d611c-2826-4a54-8ae8-b41f45b52cad, title=收到对方水电费, userId=null, author=null, pic=null, contents=是的范德萨, createTime=Fri Nov 29 09:21:18 CST 2019, releaseTime=Fri Nov 29 09:21:18 CST 2019, status=1)}
+[2019-11-29 09:23:04]--null:添加文章-->成功	参数1：{Article(id=41f1c999-329c-4cf1-83ef-0ea43ba75554, title=是电饭锅电饭锅的, userId=null, author=null, pic=null, contents=大范甘迪, createTime=Fri Nov 29 09:23:04 CST 2019, releaseTime=Fri Nov 29 09:23:04 CST 2019, status=0)}
+[2019-11-29 09:23:14]--null:删除文章-->成功	参数1：{String[]{c2393a6c-bad6-44c5-8918-d985ee02bc9f}}
+[2019-11-29 09:56:48]--null:添加文章-->成功	参数1：{Article(id=a688554c-5f04-467f-b00e-afab11b23ed7, title=这是一天添加测试, userId=null, author=null, pic=null, contents=<p>
+	的说法是第三代
+</p>
+<p>
+	<img src="http://127.0.1.1:1208/cmfz/img/article/1574992606482_AlbumArt_{B5020207-474E-4720-B03C-063C8124BE00}_Large.jpg" alt="" />
+</p>, createTime=Fri Nov 29 09:56:48 CST 2019, releaseTime=Fri Nov 29 09:56:48 CST 2019, status=1)}
+[2019-11-29 09:56:59]--null:更新轮播图-->成功	参数1：{Article(id=a688554c-5f04-467f-b00e-afab11b23ed7, title=这是一天添加测试, userId=null, author=null, pic=null, contents=<p>
+	的说法是第三代哈哈
+</p>
+<p>
+	<img src="http://127.0.1.1:1208/cmfz/img/article/1574992606482_AlbumArt_{B5020207-474E-4720-B03C-063C8124BE00}_Large.jpg" alt="" /> 
+</p>, createTime=null, releaseTime=null, status=1)}
+[2019-11-29 09:57:17]--null:添加文章-->成功	参数1：{Article(id=8105e5f7-02f8-4d57-b439-a588f64c2788, title=Test水水水水, userId=null, author=null, pic=null, contents=的说法是否是, createTime=Fri Nov 29 09:57:17 CST 2019, releaseTime=Fri Nov 29 09:57:17 CST 2019, status=0)}
+[2019-11-29 09:57:32]--null:更新轮播图-->成功	参数1：{Article(id=8105e5f7-02f8-4d57-b439-a588f64c2788, title=Testaaaaaaa, userId=null, author=null, pic=null, contents=的说法是否是, createTime=null, releaseTime=null, status=0)}
+[2019-11-29 09:57:39]--null:更新轮播图-->成功	参数1：{Article(id=8105e5f7-02f8-4d57-b439-a588f64c2788, title=Testaaaaaaa, userId=null, author=null, pic=null, contents=的说法是否是, createTime=null, releaseTime=null, status=1)}
+[2019-11-29 10:56:42]--null:添加文章-->成功	参数1：{Article(id=fccc337b-1d19-40b1-865d-6056accdce78, title=超MJ “霉霉”全美音乐奖破纪录, userId=null, author=null, pic=null, contents=<p>
+	<img src="http://127.0.1.1:1208/cmfz/img/article/1574996175064_72f082025aafa40f3caffbc9072bcd4a78f01909.jpeg" alt="" width="206" height="294" title="" align="left" />
+</p>
+<p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">本报特约记者 董 铭</span>
+	</p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">在美国当地时间24日晚举行的2019全美音乐奖颁奖典礼上，“霉霉”泰勒·斯威夫特不仅独揽6项大奖，而且以29座奖杯超过迈克尔·杰克逊，成为史上获得全美音乐奖最多的艺人。</span>
+	</p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">据美国有线电视新闻网(CNN)24日报道，泰勒·斯威夫特获得“年度艺人”“最受欢迎流行/摇滚女歌手”“最受欢迎流行/摇滚专辑”“最受欢迎MV”“最受欢迎艺人”和“十年最佳艺人奖”，成为当晚最大赢家。同时，她还以累计29座全美音乐奖，打破由已故流行天王迈克尔·杰克逊保持的全美音乐奖获奖最多纪录。“感谢你们对我的一贯支持”，斯威夫特在颁奖典礼上深情表示，“这既是庆祝我十年的工作，也是我们之间充满乐趣的回忆。”</span>
+	</p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">在贯穿整场颁奖典礼的表演环节中，斯威夫特表达的不仅是喜悦，还有对前所属公司“大机器”经纪人斯库特·布劳恩关于其老歌版权纠纷的巧妙回应。她在台上演唱过去的成名作时，特意穿了一件印有自己前6张专辑名称的白色衬衫，弹奏的钢琴上也写着这些专辑的名称。了解斯威夫特演唱生涯的歌迷和媒体都知道，这6张专辑都是她在“大机器”时发行的，版权属于“大机器”创始人斯科特·波切特和后来收购该公司的斯库特·布劳恩所有。而斯威夫特于去年转投新东家环球音乐，双方就这些专辑的版权问题已经从6月争执至今。</span>
+	</p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">就在全美音乐奖颁奖典礼举行前不久，又传出布劳恩禁止“霉霉”在典礼上演唱这些代表作，除非她满足“大机器”公司的特定要求。这个消息顿时在歌迷圈里“炸了锅”，一些愤怒的粉丝要求布劳恩放开对“‘霉霉’唱老歌”的限制，其中某些偏激的网络威胁也让这场口水战逐步升级。布劳恩最终被迫发表声明，希望和斯威夫特通过对话和解。</span>
+	</p>
+	<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+		<span class="bjh-p">不仅是斯威夫特，历史上有不少大牌歌手都无法拥有自己歌曲的全部版权。据美国《野兽日报》报道，甲壳虫乐队就没有掌控1971年前录制的所有作品的版权。美国著名歌手“王子”为拿回自己的歌曲控制权，于1993年和华纳公司对簿公堂。《野兽日报》称，泰勒·斯威夫特争取音乐控制权的斗争提醒每个人，在这个行业里，大明星尚且如此，那些不太知名的人很可能处于更糟糕的境地。</span>
+	</p>
+</p>, createTime=Fri Nov 29 10:56:42 CST 2019, releaseTime=Fri Nov 29 10:56:42 CST 2019, status=0)}
+[2019-11-29 10:57:52]--null:添加文章-->成功	参数1：{Article(id=273351f6-8978-4fa4-8df8-d3246f57f84f, title=超MJ “霉霉”全美音乐奖破纪录, userId=null, author=null, pic=null, contents=<img src="/cmfz/img/article/1574996175064_72f082025aafa40f3caffbc9072bcd4a78f01909.jpeg" alt="" />
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">本报特约记者 董 铭</span>
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">在美国当地时间24日晚举行的2019全美音乐奖颁奖典礼上，“霉霉”泰勒·斯威夫特不仅独揽6项大奖，而且以29座奖杯超过迈克尔·杰克逊，成为史上获得全美音乐奖最多的艺人。</span>
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">据美国有线电视新闻网(CNN)24日报道，泰勒·斯威夫特获得“年度艺人”“最受欢迎流行/摇滚女歌手”“最受欢迎流行/摇滚专辑”“最受欢迎MV”“最受欢迎艺人”和“十年最佳艺人奖”，成为当晚最大赢家。同时，她还以累计29座全美音乐奖，打破由已故流行天王迈克尔·杰克逊保持的全美音乐奖获奖最多纪录。“感谢你们对我的一贯支持”，斯威夫特在颁奖典礼上深情表示，“这既是庆祝我十年的工作，也是我们之间充满乐趣的回忆。”</span>
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">在贯穿整场颁奖典礼的表演环节中，斯威夫特表达的不仅是喜悦，还有对前所属公司“大机器”经纪人斯库特·布劳恩关于其老歌版权纠纷的巧妙回应。她在台上演唱过去的成名作时，特意穿了一件印有自己前6张专辑名称的白色衬衫，弹奏的钢琴上也写着这些专辑的名称。了解斯威夫特演唱生涯的歌迷和媒体都知道，这6张专辑都是她在“大机器”时发行的，版权属于“大机器”创始人斯科特·波切特和后来收购该公司的斯库特·布劳恩所有。而斯威夫特于去年转投新东家环球音乐，双方就这些专辑的版权问题已经从6月争执至今。</span>
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">就在全美音乐奖颁奖典礼举行前不久，又传出布劳恩禁止“霉霉”在典礼上演唱这些代表作，除非她满足“大机器”公司的特定要求。这个消息顿时在歌迷圈里“炸了锅”，一些愤怒的粉丝要求布劳恩放开对“‘霉霉’唱老歌”的限制，其中某些偏激的网络威胁也让这场口水战逐步升级。布劳恩最终被迫发表声明，希望和斯威夫特通过对话和解。</span>
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">不仅是斯威夫特，历史上有不少大牌歌手都无法拥有自己歌曲的全部版权。据美国《野兽日报》报道，甲壳虫乐队就没有掌控1971年前录制的所有作品的版权。美国著名歌手“王子”为拿回自己的歌曲控制权，于1993年和华纳公司对簿公堂。《野兽日报》称，泰勒·斯威夫特争取音乐控制权的斗争提醒每个人，在这个行业里，大明星尚且如此，那些不太知名的人很可能处于更糟糕的境地。</span>
+</p>, createTime=Fri Nov 29 10:57:52 CST 2019, releaseTime=Fri Nov 29 10:57:52 CST 2019, status=0)}
+[2019-11-29 10:58:36]--null:更新轮播图-->成功	参数1：{Article(id=273351f6-8978-4fa4-8df8-d3246f57f84f, title=超MJ “霉霉”全美音乐奖破纪录, userId=null, author=null, pic=null, contents=<img src="/cmfz/img/article/1574996175064_72f082025aafa40f3caffbc9072bcd4a78f01909.jpeg" alt="" /> 
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">本报特约记者 董 铭</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在美国当地时间24日晚举行的2019全美音乐奖颁奖典礼上，“<span style="color:#337FE5;">霉霉”泰勒·斯威夫特</span>不仅独揽6项大奖，而且以29座奖杯超过迈克尔·杰克逊，成为史上获得全美音乐奖最多的艺人。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">据美国有线电视新闻网(CNN)24日报道，泰勒·斯威夫特获得“年度艺人”“最受欢迎流行/摇滚女歌手”“最受欢迎流行/摇滚专辑”“最受欢迎MV”“最受欢迎艺人”和“十年最佳艺人奖”，成为当晚最大赢家。同时，她还以累计29座全美音乐奖，打破由已故流行天王迈克尔·杰克逊保持的全美音乐奖获奖最多纪录。“感谢你们对我的一贯支持”，斯威夫特在颁奖典礼上深情表示，“这既是庆祝我十年的工作，也是我们之间充满乐趣的回忆。”</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在贯穿整场颁奖典礼的表演环节中，斯威夫特表达的不仅是喜悦，还有对前所属公司“大机器”经纪人斯库特·布劳恩关于其老歌版权纠纷的巧妙回应。她在台上演唱过去的成名作时，特意穿了一件印有自己前6张专辑名称的白色衬衫，弹奏的钢琴上也写着这些专辑的名称。了解斯威夫特演唱生涯的歌迷和媒体都知道，这6张专辑都是她在“大机器”时发行的，版权属于“大机器”创始人斯科特·波切特和后来收购该公司的斯库特·布劳恩所有。而斯威夫特于去年转投新东家环球音乐，双方就这些专辑的版权问题已经从6月争执至今。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就在全美音乐奖颁奖典礼举行前不久，又传出布劳恩禁止“霉霉”在典礼上演唱这些代表作，除非她满足“大机器”公司的特定要求。这个消息顿时在歌迷圈里“炸了锅”，一些愤怒的粉丝要求布劳恩放开对“‘霉霉’唱老歌”的限制，其中某些偏激的网络威胁也让这场口水战逐步升级。布劳恩最终被迫发表声明，希望和斯威夫特通过对话和解。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不仅是斯威夫特，历史上有不少大牌歌手都无法拥有自己歌曲的全部版权。据美国《野兽日报》报道，甲壳虫乐队就没有掌控1971年前录制的所有作品的版权。美国著名歌手“王子”为拿回自己的歌曲控制权，于1993年和华纳公司对簿公堂。《野兽日报》称，泰勒·斯威夫特争取音乐控制权的斗争提醒每个人，在这个行业里，大明星尚且如此，那些不太知名的人很可能处于更糟糕的境地。</span> 
+</p>, createTime=null, releaseTime=null, status=0)}
+[2019-11-29 11:00:33]--null:删除文章-->成功	参数1：{String[]{0396a98e-d33f-4e61-a95a-66570a9da65c,0d7febf9-c14c-4311-b782-b8e253a995aa,41f1c999-329c-4cf1-83ef-0ea43ba75554,8105e5f7-02f8-4d57-b439-a588f64c2788}}
+[2019-11-29 11:00:36]--null:删除文章-->成功	参数1：{String[]{a46d611c-2826-4a54-8ae8-b41f45b52cad,a688554c-5f04-467f-b00e-afab11b23ed7}}
+[2019-11-29 02:29:07]--null:添加文章-->成功	参数1：{Article(id=3942a571-7b83-4a97-aaf4-f1045b69452e, title=Test, userId=2, author=地道, pic=null, contents=dsfsdfdsdgfdf, createTime=Fri Nov 29 14:29:07 CST 2019, releaseTime=Fri Nov 29 14:29:07 CST 2019, status=0)}
+[2019-11-29 02:37:53]--null:更新轮播图-->成功	参数1：{Article(id=273351f6-8978-4fa4-8df8-d3246f57f84f, title=超MJ “霉霉”全美音乐奖破纪录, userId=1, author=天道, pic=null, contents=<img src="/cmfz/img/article/1574996175064_72f082025aafa40f3caffbc9072bcd4a78f01909.jpeg" alt=""> 
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">本报特约记者 董 铭</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在美国当地时间24日晚举行的2019全美音乐奖颁奖典礼上，“<span style="color:#337FE5;">霉霉”泰勒·斯威夫特</span>不仅独揽6项大奖，而且以29座奖杯超过迈克尔·杰克逊，成为史上获得全美音乐奖最多的艺人。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">据美国有线电视新闻网(CNN)24日报道，泰勒·斯威夫特获得“年度艺人”“最受欢迎流行/摇滚女歌手”“最受欢迎流行/摇滚专辑”“最受欢迎MV”“最受欢迎艺人”和“十年最佳艺人奖”，成为当晚最大赢家。同时，她还以累计29座全美音乐奖，打破由已故流行天王迈克尔·杰克逊保持的全美音乐奖获奖最多纪录。“感谢你们对我的一贯支持”，斯威夫特在颁奖典礼上深情表示，“这既是庆祝我十年的工作，也是我们之间充满乐趣的回忆。”</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在贯穿整场颁奖典礼的表演环节中，斯威夫特表达的不仅是喜悦，还有对前所属公司“大机器”经纪人斯库特·布劳恩关于其老歌版权纠纷的巧妙回应。她在台上演唱过去的成名作时，特意穿了一件印有自己前6张专辑名称的白色衬衫，弹奏的钢琴上也写着这些专辑的名称。了解斯威夫特演唱生涯的歌迷和媒体都知道，这6张专辑都是她在“大机器”时发行的，版权属于“大机器”创始人斯科特·波切特和后来收购该公司的斯库特·布劳恩所有。而斯威夫特于去年转投新东家环球音乐，双方就这些专辑的版权问题已经从6月争执至今。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就在全美音乐奖颁奖典礼举行前不久，又传出布劳恩禁止“霉霉”在典礼上演唱这些代表作，除非她满足“大机器”公司的特定要求。这个消息顿时在歌迷圈里“炸了锅”，一些愤怒的粉丝要求布劳恩放开对“‘霉霉’唱老歌”的限制，其中某些偏激的网络威胁也让这场口水战逐步升级。布劳恩最终被迫发表声明，希望和斯威夫特通过对话和解。</span> 
+</p>
+<p style="font-size:16px;color:#333333;text-align:justify;font-family:arial;background-color:#FFFFFF;">
+	<span class="bjh-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不仅是斯威夫特，历史上有不少大牌歌手都无法拥有自己歌曲的全部版权。据美国《野兽日报》报道，甲壳虫乐队就没有掌控1971年前录制的所有作品的版权。美国著名歌手“王子”为拿回自己的歌曲控制权，于1993年和华纳公司对簿公堂。《野兽日报》称，泰勒·斯威夫特争取音乐控制权的斗争提醒每个人，在这个行业里，大明星尚且如此，那些不太知名的人很可能处于更糟糕的境地。</span> 
+</p>, createTime=null, releaseTime=null, status=0)}
+[2019-11-29 02:41:58]--null:添加文章-->成功	参数1：{Article(id=7d65c6f9-0133-4bd1-a2ea-87e69a3e58b9, title=权力的游戏, userId=0, author=, pic=null, contents=sdfsdfds, createTime=Fri Nov 29 14:41:58 CST 2019, releaseTime=Fri Nov 29 14:41:58 CST 2019, status=1)}
+[2019-11-29 02:47:50]--null:删除文章-->成功	参数1：{String[]{3942a571-7b83-4a97-aaf4-f1045b69452e}}
