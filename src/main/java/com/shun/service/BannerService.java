@@ -17,7 +17,7 @@ public interface BannerService {
     void getExcel(HttpServletResponse response);
     Map importExcel(MultipartFile file);
 
-    void getEXCELModal(HttpServletResponse response) throws IOException;
+    void getExcelModal(HttpServletResponse response) throws IOException;
 
     List<Banner> findByRandom(int i);
 }

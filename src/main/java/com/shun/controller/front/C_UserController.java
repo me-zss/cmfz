@@ -49,9 +49,9 @@ public class C_UserController {
             e.printStackTrace();
             map.put("status", -200);
             map.put("message", "短信发送失败");
-        }finally {
-            return map;
         }
+        return map;
+
     }
     @RequestMapping("updateInfo")
     public Map updateInfo(User user) {

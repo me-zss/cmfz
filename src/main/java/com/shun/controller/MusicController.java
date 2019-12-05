@@ -25,25 +25,25 @@ public class MusicController {
     @RequestMapping("edit")
     public Map edit(String oper,Music music,String[] id) {
         Map map = null;
-        if(oper.equals("add")){
+        if("add".equals(oper)){
             map = musicService.add(music);
-        } else if (oper.equals("edit")) {
+        } else if ("edit".equals(oper)) {
             music.setPic(null).setCreateTime(null);
             map = musicService.update(music);
-        } else if (oper.equals("del")) {
+        } else if ("del".equals(oper)) {
             map = musicService.del(id);
         }
         return map;
     }
     @RequestMapping("upload")
-    public Map upload(MultipartFile pic, String musicId, HttpServletRequest request) throws IOException {
+    public Map upload(MultipartFile pic, String musicId, HttpServletRequest request)  {
         String uri = null;
         try {
             uri = UploadUtil.getUrl("/music",pic,request);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Map map = new HashMap();
+        Map map = new HashMap(1);
         musicService.update(new Music().setId(musicId).setPic(uri));
         map.put("status","ok");
         return map;

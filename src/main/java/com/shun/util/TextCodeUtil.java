@@ -27,7 +27,7 @@ public class TextCodeUtil {
         request.putQueryParameter("TemplateParam", "{\"code\":\""+code+"\"}");
         try {
             CommonResponse response = client.getCommonResponse(request);
-            return response.getData().split(",")[0].split(":")[1].replaceAll("\"","").equals("OK");
+            return "OK".equals(response.getData().split(",")[0].split(":")[1].replaceAll("\"",""));
         } catch (ServerException e) {
             e.printStackTrace();
         } catch (ClientException e) {

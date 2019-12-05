@@ -28,13 +28,13 @@ public class BannerController {
     @RequestMapping("edit")
     public Map edit(String oper,Banner banner,String[] id) {
         Map map = null;
-        if(oper.equals("add")){
+        if("add".equals(oper)){
             map = bannerService.add(banner);
-        }else if(oper.equals("edit")){
+        }else if("edit".equals(oper)){
             System.out.println(banner);
             banner.setUrl(null);
             map = bannerService.update(banner);
-        }else if(oper.equals("del")){
+        }else if("del".equals(oper)){
             map = bannerService.del(id);
         }
         return map;
@@ -60,13 +60,13 @@ public class BannerController {
         return bannerService.importExcel(fileInput);
     }
     @RequestMapping("getEXCEL")
-    public void getEXCEL(HttpServletResponse response) throws UnsupportedEncodingException {
+    public void getExcel(HttpServletResponse response) throws UnsupportedEncodingException {
         response.setHeader("content-disposition","attachment;fileName="+ URLEncoder.encode("bannerInfo.xls","UTF-8"));
         bannerService.getExcel(response);
     }
     @RequestMapping("getEXCELModal")
-    public void getEXCELModal(HttpServletResponse response) throws IOException {
+    public void getExcelModal(HttpServletResponse response) throws IOException {
         response.setHeader("content-disposition","attachment;fileName="+ URLEncoder.encode("bannerModel.xls","UTF-8"));
-        bannerService.getEXCELModal(response);
+        bannerService.getExcelModal(response);
     }
 }

@@ -34,10 +34,10 @@ public class ChapterController {
     @RequestMapping("edit")
     public Map edit(String oper, Chapter chapter,String[] id) {
         Map map = new HashMap();
-        if (oper.equals("add")) {
+        if ("add".equals(oper)) {
             map = chapterService.add(chapter);
             musicService.addEpisodes(chapter.getMusicId(),1);
-        } else if (oper.equals("edit")) {
+        } else if ("edit".equals(oper)) {
             map = chapterService.update(new Chapter().setId(chapter.getId()).setName(chapter.getName()));
         }else{
             String musicId = chapterService.getMusicId(id[0]);

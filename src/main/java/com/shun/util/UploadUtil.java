@@ -16,7 +16,7 @@ public class UploadUtil {
         if(!file.exists()){
             file.mkdirs();
         }
-        String newName = new Date().getTime() +"_"+ fileName;
+        String newName = System.currentTimeMillis() +"_"+ fileName;
         String http = request.getScheme();
         String ip = InetAddress.getLocalHost().toString().split("/")[1];
         int port = request.getServerPort();

@@ -21,7 +21,9 @@ public class ManagerServiceImpl implements ManagerService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @LogAnnotation(value = "登录后台")
     public Manager login(Manager manager) {
-        if (manager==null||manager.getUsername()==null) return null;
+        if (manager==null||manager.getUsername()==null) {
+            return null;
+        }
         Manager reManager = managerDao.selectOne(new Manager().setUsername(manager.getUsername()));
         if(reManager!=null&&reManager.getPassword().equals(manager.getPassword())){
             return reManager;

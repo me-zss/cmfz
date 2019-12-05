@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
-import tk.mybatis.mapper.entity.Example;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -121,7 +120,7 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
-    public void getEXCELModal(HttpServletResponse response){
+    public void getExcelModal(HttpServletResponse response){
         OutputStream os = null;
         try {
             os = response.getOutputStream();

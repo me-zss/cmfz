@@ -27,7 +27,7 @@ public class ArticleController {
     @RequestMapping("edit")
     public Map edit(String oper,String[] id) {
         Map map = null;
-        if (oper.equals("del")) {
+        if ("del".equals(oper)) {
             map =  articleService.del(id);
         }
         return map;
@@ -48,7 +48,7 @@ public class ArticleController {
     }
     @RequestMapping("addOrUpdate")
     public Map add(Article article) {
-        if(!article.getUserId().equals("0")){
+        if(!"0".equals(article.getUserId())){
             Guru guru = guruService.findById(article.getUserId());
             article.setAuthor(guru.getFname());
         }else{

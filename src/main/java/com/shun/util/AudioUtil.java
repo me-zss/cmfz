@@ -87,7 +87,7 @@ public class AudioUtil {
      * @param filePath
      * @return
      */
-    public static long getPCMDurationMilliSecond(String filePath) {
+    public static long getPcmDurationMilliSecond(String filePath) {
         File file = new File(filePath);
 
         //得到多少秒

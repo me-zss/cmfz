@@ -44,13 +44,13 @@ public class UserServiceImpl implements UserService {
         Example example = new Example(User.class);
         Map map = new HashMap();
         int start = (page-1)*rows;
-        searchString=searchField.equals("status")?(searchString.equals("展示")?"1":(searchString.equals("冻结")?"2":searchString)):searchString;
-        searchString=searchField.equals("status")&&searchOper.equals("cn")?(searchString.equals("展")||searchString.equals("示")?"1":(searchString.equals("冻")||searchString.equals("结")?"2":searchString)):searchString;
+        searchString= "status".equals(searchField)?("展示".equals(searchString)?"1":("冻结".equals(searchString)?"2":searchString)):searchString;
+        searchString= "status".equals(searchField)&& "cn".equals(searchOper)?("展".equals(searchString)|| "示".equals(searchString)?"1":("冻".equals(searchString)|| "结".equals(searchString)?"2":searchString)):searchString;
         switch (searchOper){
             case "cn":example.createCriteria().andLike(searchField,"%"+searchString+"%");break;
             case "eq":example.createCriteria().andEqualTo(searchField,searchString);break;
             case "ne":example.createCriteria().andNotEqualTo(searchField,searchString);break;
-
+            default:
         }
         List<User> users = userDao.selectByExampleAndRowBounds(example, new RowBounds(start, rows));
         int records = userDao.selectCountByExample(example);
