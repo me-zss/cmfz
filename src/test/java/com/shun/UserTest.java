@@ -24,6 +24,10 @@ public class UserTest {
         }
     }
     @Test
+    public void testSout() {
+        System.out.println("lllll");
+    }
+    @Test
     public void testAddUser() {
         for (int i = 0; i < 10; i++) {
             User user = new User();
