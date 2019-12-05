@@ -5,6 +5,7 @@ import com.shun.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -17,6 +18,12 @@ import java.util.Random;
 public class UserTest {
     @Autowired
     private UserService userService;
+    @Value("${async.maxPoolSize}")
+    private int maxPoolSize;
+    @Test
+    public void testValue() {
+        System.out.println(maxPoolSize);
+    }
     @Test
     public void testChageStatus() {
         for(int i=0;i<10;i++){

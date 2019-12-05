@@ -15,6 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.*;
@@ -84,6 +86,35 @@ public class BannerServiceImpl implements BannerService {
         OutputStream os = null;
         try {
             os = response.getOutputStream();
+            build = EasyExcel.write(os,Banner.class).build();
+            WriteSheet writeSheet = EasyExcel.writerSheet("轮播图").build();
+            Map map = null;
+            int page = 1;
+            do{
+                map = findAll(page, 2000);
+                Integer total = (Integer) map.get("total");
+                page = total>page?page+1:0;
+                List<Banner> banners = (List<Banner>) map.get("rows");
+                build.write(banners,writeSheet);
+            }while (page!=0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            build.finish();
+            try {
+                os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Override
+    public void getExcel(File file) {
+        ExcelWriter build = null;
+        OutputStream os = null;
+        try {
+            os = new FileOutputStream(file);
             build = EasyExcel.write(os,Banner.class).build();
             WriteSheet writeSheet = EasyExcel.writerSheet("轮播图").build();
             Map map = null;
