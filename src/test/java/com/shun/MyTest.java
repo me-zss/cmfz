@@ -46,4 +46,8 @@ public class MyTest {
             System.out.println(format);
         }
     }
+    @Test
+    public void testAdd() {
+        System.out.println("jsdj");
+    }
 }
